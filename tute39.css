@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* this is root element  */
+:root {
+    --navbar-height: 59px;
+}
+
+/* this is a navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relativ;
+}
+#navbar::before {
+    content: "";
+    background-color: rgba(255, 136, 223, 0.761);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+
+}
+
+.logo {
+    margin: 12px 30px;
+
+}
+
+.img {
+    margin: 12px 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 3rem;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: large;
+}
+
+#navbar ul li a {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: block;
+    margin: 3px 13px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 33px;
+    position: relative;
+    left: 183px;
+
+
+}
+
+#navbar ul li a:hover {
+    color: rgb(128, 227, 251);
+    text-shadow: 12px white;
+
+
+}
+#navbar button {
+    
+    margin: 9px;
+    padding-left: -28px;
+    position: relative;
+    left: 294px;
+}
+
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 226px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(/img/dark-mood-food-g419d6d7cc_1920.jpg) center/cover;
+    height: 195%;
+    width: 100%;
+    z-index: -1;
+}
+
+.h1-primery {
+    font-family: "Sofia", sans-serif;
+    color: #ee5656;
+    text-align: center;
+    padding: 12px;
+    font-size: 3rem;
+}
+.font-effect-shadow-multiple {
+    position: relative;
+    right: 20rem;
+    font-size: 7rem;
+  }
+  
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.btn {
+    padding: 3px 6px;
+    display: block;
+    position: absolute;
+    left: 278px;
+    top: 369px;
+}
+
+/* sercice container  */
+
+
+.font {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.service-container {
+    height: 500px;
+    position: relative;
+    top: 565px;
+}
+
+.pizza {
+
+    display: flex;
+
+}
+
+/* services */
+#service {
+    margin: 43px;
+    display: flex;
+
+}
+
+#service .box {
+    border: 2px solid red;
+    height: 396px;
+    width: 404px;
+    margin: 46px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(223, 187, 255);
+    border-radius: 56px;
+
+
+}
+
+#service .box img {
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+
+
+
+.client-sectiuon {
+    /* display:flex; */
+    position: relative;
+    top: 700px;
+}
+
+.center {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.h-secondry {
+    font-size: 1.3rem;
+    padding: 12px;
+}
+
+.h1-prime-client {
+    text-align: center;
+}
+
+#client {
+    justify-content: center;
+    text-align: center;
+    margin: 24px;
+    display: flex;
+    border-radius: 30px;
+    background-color: rgb(214, 228, 153);
+
+}
+
+/* #client::before{
+    content: "";
+background:url(/img/bg1.jpg) no-repeat center center/cover ;
+position: absolute;
+height: 100%;
+width: 100%;
+opacity: .8;
+z-index: -1;
+height: 200px;
+} */
+.client-item img {
+    margin: 35px;
+    height: 100px;
+    padding: 10px;
+}
+/* custom button code */
+
+
+.btn {
+    background: #34d955;
+    background-image: -webkit-linear-gradient(top, #34d955, #568215);
+    background-image: -moz-linear-gradient(top, #34d955, #568215);
+    background-image: -ms-linear-gradient(top, #34d955, #568215);
+    background-image: -o-linear-gradient(top, #34d955, #568215);
+    background-image: linear-gradient(to bottom, #34d955, #000);
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    text-shadow: 1px 1px 3px #210021;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #1f5c0a;
+    background-image: -webkit-linear-gradient(top, #1f5c0a, #043306);
+    background-image: -moz-linear-gradient(top, #1f5c0a, #043306);
+    background-image: -ms-linear-gradient(top, #1f5c0a, #043306);
+    background-image: -o-linear-gradient(top, #1f5c0a, #043306);
+    background-image: linear-gradient(to bottom, #1f5c0a, #043306);
+    text-decoration: none;
+}.p-left{
+position: relative;
+right: 322px;
+}
